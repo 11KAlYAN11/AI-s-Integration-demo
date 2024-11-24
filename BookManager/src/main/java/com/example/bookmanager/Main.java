@@ -5,6 +5,8 @@ public class Main {
         BookManager bookManager = new BookManager();
         bookManager.addBook(new Book("1984", "George Orwell"));
         bookManager.addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        bookManager.addBook(new Book("asam kalyan", "SLN"));
+        bookManager.addBook(new Book("Pandu", "Krishna"));
 
         System.out.println("Books in the manager:");
         for (Book book : bookManager.getBooks()) {
